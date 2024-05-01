@@ -34,10 +34,9 @@ int main()
     int num1,num2;
     num1=readnumber("Enter number 1");
     num2=readnumber("Enter number 2 ");
-    if((!checkeven(num1))&&(!checkeven(num2)))
+    if((num1%2==1)&&(num2%2==1))
     {
      cout<<num1*num2 <<endl;
-
     }
     else if(checkodd(num1)&&checkeven(num2))
     {
